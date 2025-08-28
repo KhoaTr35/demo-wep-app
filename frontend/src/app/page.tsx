@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+import { Counter } from "@/components/ui/counter";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -24,6 +27,14 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+
+        {/* Counter Component */}
+        <Counter />
+
+        {/* Navigation Button */}
+        <Button asChild size="lg" variant="outline" className="w-full max-w-sm">
+          <Link href="/home">Go to Home Page</Link>
+        </Button>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
