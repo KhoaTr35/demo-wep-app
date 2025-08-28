@@ -1,2 +1,2 @@
 # demo-wep-app
-try to intial set up
+This repo is for initialize the login and sign up page, home page
