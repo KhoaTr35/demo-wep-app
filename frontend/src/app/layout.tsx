@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Demo Web App",
-  description: "A demo web application with counter and navigation",
+  description: "A demo web application with initial login, sign up and home page.",
 };
 
 export default function RootLayout({

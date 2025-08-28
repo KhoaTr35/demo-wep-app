@@ -48,7 +48,7 @@ export default function HomePage() {
         </Card>
 
         {/* Login Card */}
-        <div className="w-full max-w-sm items-center">
+        <div className="flex justify-center w-full">
           <LoginCard />
         </div>
       </main>
