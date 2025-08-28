@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { LoginCard } from "@/components/ui/loginCard";
 
 export default function HomePage() {
   return (
@@ -45,6 +46,11 @@ export default function HomePage() {
             </div>
           </CardContent>
         </Card>
+
+        {/* Login Card */}
+        <div className="w-full max-w-sm items-center">
+          <LoginCard />
+        </div>
       </main>
     </div>
   );
